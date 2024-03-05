@@ -1,0 +1,582 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Adventure</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+			<style>
+				.video-container {
+					position: relative;
+					width: 100%;
+					height: 100vh; /* Sesuaikan dengan tinggi yang diinginkan */
+					overflow: hidden;
+				}
+		
+				video {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					min-width: 100%;
+					min-height: 100%;
+					width: auto;
+					height: auto;
+					z-index: -100;
+				}
+				.related-articles {
+    background-color: #f8f9fa; 
+    padding: 80px 0; 
+}
+
+.related-articles .container {
+    text-align: center;
+}
+
+.related-articles h2 {
+    margin-bottom: 30px; 
+    font-size: 28px;
+    color: #333; 
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    width: 300px; 
+    margin: 20px; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.article h3 {
+    font-size: 24px;
+    color: #333; 
+}
+
+.article p {
+    margin-bottom: 20px;
+    font-size: 16px; 
+    color: #555; 
+}
+
+.article a {
+    text-decoration: none;
+    color: #007bff; 
+}
+
+.article a:hover {
+    text-decoration: underline; 
+}
+
+				
+			</style>
+		</head>
+		<body>
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">
+				<!-- Start Header Area -->
+				<header class="default-header">
+					<nav class="navbar navbar-expand-lg  navbar-light">
+						<div class="container">
+							  <a class="navbar-brand" href="index.html">
+							  	<img src="img/logo2.png" height="70" width="200" color="blue" alt="">
+							  </a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="text-white lnr lnr-menu"></span>
+							  </button>
+
+							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+							    <ul class="navbar-nav">
+									<li><a href="#home">Home</a></li>
+									<li><a href="#history">History</a></li>									
+									<li><a href="#about">About</a></li>
+									<li><a href="#gallery">Gallery</a></li>
+									<li><a href="#faq">Maps</a></li>
+									<li><a href="#artikel">Artikel</a></li>
+									<!-- Dropdown -->
+								    <li class="dropdown">
+								      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								        Pages
+								      </a>
+								      <div class="dropdown-menu">
+								        <a class="dropdown-item" href="pariwisata.html">Destinasi</a>
+								        <a class="dropdown-item" href="budaya.html">Budaya</a>
+										<a class="dropdown-item" href="kuliner.html">Kuliner</a>
+								      </div>
+								    </li>
+							    </ul>
+							  </div>						
+						</div>
+					</nav>
+				</header>
+				<!-- End Header Area -->				
+			</section>
+
+			<section class="default-banner active-blog-slider">
+					<div class="item-slider relative" style="background: url(img/slider4.jpeg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover JOGJA by Natif</h4>
+										<h1 class="text-uppercase text-white">DISCOVER JOGJA</h1>
+										<p class="text-white">Mari temukan tujuan liburan anda disekitar JOGJA</p>
+										<a href="#" class="text-uppercase header-btn">Temukan Sekarang</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="item-slider relative" style="background: url(img/slider5.jpeg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Jelajahi pesona unik Jogja</h4>
+										<h1 class="text-uppercase text-white">Mulai Berjelajah</h1>
+										<p class="text-white">Temukan pesona budaya, sejarah, dan alam yang membuat Jogja begitu istimewa.</p>
+										<a href="#" class="text-uppercase header-btn">Mulai Berjelajah</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-slider relative" style="background: url(img/slider6.jpeg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">DISCOVER JOGJA</h4>
+										<h1 class="text-uppercase text-white">Pengalaman Baru</h1>
+										<p class="text-white">Jelajahi tempat-tempat menarik, kuliner lezat, dan pengalaman lokal yang tak terlupakan</p>
+										<a href="#" class="text-uppercase header-btn">Temukan Pengalaman</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Start about Area -->
+			<section class="section-gap info-area" id="history">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-40 col-lg-8">
+							<!-- <div class="title text-center">
+								<h1 class="mb-10">Secuplik tentang Budaya,Pariwisata,dan Kuliner di Jogja Kota</h1>
+								<p>Simak dan Ikuti</p>
+							</div> -->
+						</div>
+					</div>					
+					<div class="single-info row mt-40">
+						<div class="col-lg-6 col-md-12 mt-120 text-center no-padding info-left">
+							<div class="info-thumb">
+								<img src="img/jogjalogo.png" class="img-fluid" alt="" height="800" width="800">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 no-padding info-rigth">
+							<div class="info-content">
+								<h2 >Sejarah Singkat</h2>
+								<br>
+								<p>
+									Daerah Istimewa Yogyakarta (DIY) adalah satu dari daerah otonom setingkat provinsi di Indonesia. Nama "Yogyakarta" berasal dari kata Jawa yang berarti Yogya yang kerta atau Yogya yang makmur, dan Ngayogyakarta Hadiningrat berarti Yogya yang makmur dan yang paling utama. Ada sumber yang menyatakan bahwa nama Yogyakarta diambil dari Ayodhya, ibu kota dalam epos Ramayana dalam bahasa Sanskerta. Secara umum, Yogyakarta sering disebut sebagai Jogja(karta) atau Ngayogyakarta dalam bahasa Jawa.
+								</p>
+								<br>
+								<p> 
+									Kota Yogyakarta didirikan setelah Perjanjian Gianti pada 13 Februari 1755, yang membagi Kerajaan Mataram Islam menjadi dua bagian: setengah menjadi hak Kerajaan Mataram Islam (Surakarta), dan setengah lagi menjadi hak Pangeran Mangkubumi (Sultan Hamengkubuwana I), berdasarkan tanda tangan Gubernur Nicholas Hartingh atas nama Gubernur Jendral Jacob Mossel.
+								</p>
+								<br>
+								<p>
+									Sebagai Daerah Otonom Provinsi, DIY dibentuk berdasarkan Undang-undang No.3 tahun 1950, sesuai dengan pasal 18 UUD 1945. Wilayah DIY mencakup bekas Daerah/Kasultanan Yogyakarta dan Daerah Pakualaman. Kota Yogyakarta, sebagai ibukota DIY, memiliki banyak predikat, termasuk sebagai kota perjuangan, kota kebudayaan, kota pelajar, dan kota pariwisata.
+								</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End about Area -->
+			
+			
+			<!-- Start project Area -->
+			<section class="project-area section-gap" id="about">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-30 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Tentang Jogja</h1>
+								<p>Jogja terbuat dari rindu, pulang dan angkringan.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-center d-flex">
+						<div class="active-works-carousel mt-40 col-lg-8">
+							<div class="item">
+								<img class="img-fluid" src="img/budaya1.jpeg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Jogja Kota Budaya</h6>
+									<p>Yogyakarta sering disebut sebagai kota pelajar. Namun, selain sebagai kota pelajar, Yogyakarta juga dikenal sebagai kota budaya. Hal itu dikarenakan Yogyakarta memiliki berbagai budaya yang masih terjaga dan dijunjung tinggi oleh masyarakat sekitar. Inilah yang menjadi salah satu alasan mengapa banyak wisatawan asing yang betah berlama-lama tinggal di Jogja, bahkan beberapa di antaranya menetap di sana. </p>
+								    <p>Nah, bagi Anda yang ingin mengenal lebih jauh tentang Yogyakarta, ada baiknya mengetahui ragam budaya setempat. Khususnya, bagi Anda yang ingin liburan kesana, budaya ini bisa menjadi salah satu agenda liburan Anda baik itu sendiri, ataupun bersama keluarga.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/budaya2.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Kesenian Jogja</h6>
+									<p>Yogyakarta juga dikenal sebagai kota budaya. Hal itu dikarenakan Yogyakarta memiliki berbagai budaya yang masih terjaga dan dijunjung tinggi oleh masyarakat sekitar. Di tengah hiruk pikuk perkembangan perkotaan yang semakin maju, banyak seniman di Yogyakarta yang tetap gigih dalam usaha memelihara dan mempertahankan beragam kesenian tradisional.  </p>
+								    <p>Tidak hanya pada acara-acara khusus, kesenian khas Yogyakarta sering kali menjadi bagian tak terpisahkan dari kehidupan sehari-hari. Mulai dari acara pernikahan, upacara khitan, hingga momen kelahiran anak, banyak seniman local yang diundang untuk ikut memeriahkannya. </p>
+									<p>Ragam kesenian tardisional Yogyakarta tidak hanya memikat hati Masyarakat local, tetapi juga telah meraih pengakuan di Tingkat nasional maupun internasional, contohnya wayang kulit yang telah popular diluar indoenesia. Selain itu berbagai jenis tari juga telah beberapa kali ditampilkan di negara -negara lain seperti jepang.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/slider5.jpeg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pusat Perbelanjaan Jogja</h6>
+									<p>Jogja merupakan salah satu destinasi wisata terfavorit di Indonesia yang  menawarkan berbagai macam pesona keindahan dan keunikan-keunikan di dalamnya. Berbagai jenis wisata banyak ditawarkan di Jogja mulai dari wisata budaya, sejarah, alam sampai wisata minat khusus. Karna Jogja dikenal sebagai tempat wisata favorit, tentunya Jogja menawarkan berbagai macam oleh-oleh menarik yang banyak dijajakan pada pusat oleh-oleh yang ada di wilayah Jogja. Dari sekian banyak pusat oleh-oleh di Jogja, terdapat beberapa yang masuk dalam list terpopuler di Jogja.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/slider6.jpeg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Jogja Kota Wisata</h6>
+									<p>Siapa sih yang ga pengen ke Jogja?</p>
+									<br>
+									<p>Jogja emang lengkap banget. Segala jenis tempat wisata bisa ditemukan di Jogja, dan semuanya menghadirkan pengalaman yang menyenangkan. Kota Pelajar ini memiliki segalanya: mulai dari tempat-tempat bersejarah, kuliner yang lezat, keindahan alam, hingga spot-spot wisata yang cocok untuk diabadikan dalam foto "Instagramable". jadi, sudah tidak heran lagi jika Jogja telah lama menjadi magnet bagi para wisatawan.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/gudeg.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Jogja Kota Kuliner</h6>
+									<p> Jogja, yang sering disebut sebagai "Kota Kuliner", adalah surga bagi para pecinta makanan. Jogja memiliki segalanya untuk memanjakan lidah Anda, mulai dari makanan modern sampai makanan tradisional. Dari gudeg, sate klathak, hingga bakpia, Jogja menawarkan beragam hidangan yang menggugah selera dan memberikan pengalaman kuliner yang tak terlupakan bagi para pengunjung. Keunikan rasa dan cita rasa autentik dari hidangan-hidangan ini mencerminkan kekayaan budaya dan kuliner yang menjadi bagian tak terpisahkan dari identitas Kota Jogja.</p>
+									<br>
+									<p> Para pelaku kuliner di kota ini seringkali menciptakan variasi baru dari hidangan tradisional atau menggabungkan unsur-unsur internasional untuk menciptakan cita rasa yang menarik dan segar. Hal ini menjadikan Jogja sebagai tempat yang menarik bagi para penikmat kuliner yang ingin menjelajahi dan mengeksplorasi rasa baru.</p>
+									<br> 
+									<p> Selain memiliki hidangan lezat, salah satu daya tarik Jogja sebagai kota kuliner adalah harga yang terjangkau. Meskipun menawarkan hidangan yang berkualitas, sebagian besar tempat makan di Jogja menawarkan harga yang ramah di kantong, membuatnya cocok bagi wisatawan dengan berbagai anggaran. Dengan kombinasi kekayaan kuliner tradisional, inovasi yang kreatif, dan harga yang terjangkau, Jogja memang layak dijuluki sebagai kota kuliner yang menarik bagi wisatawan </p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/taman pintar.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Jogja Kota Pelajar</h6>
+									<p>Jogja, yang dijuluki sebagai "Kota Pelajar", menawarkan pengalaman wisata yang unik dengan sentuhan pendidikan dan kebudayaan. Dengan keberagaman institusi pendidikan mulai dari universitas terkemuka hingga sekolah-sekolah tradisional, Jogja menjadi pusat pembelajaran yang dinamis dan inspiratif. Di balik gelar tersebut, Jogja juga menawarkan pengalaman wisata yang kaya akan budaya, sejarah, seni, dan kuliner yang memikat. Kota ini adalah tempat yang menyambut pengetahuan dan petualangan dengan tangan terbuka, menjadikannya destinasi yang tak hanya memikat bagi para pelajar, tetapi juga bagi semua orang yang haus akan pengetahuan dan pengalaman baru. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			
+			<!-- End project Area -->
+
+
+			<!-- Start feature Area -->
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-40 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Pariwisata Di Jogja Kota</h1>
+							<p>Mulailah Tripmu.</p>
+						</div>
+					</div>
+				</div>
+			<!-- End feature Area -->
+
+
+			<!-- Start gallery Area -->
+			<section class="gallery-area" id="gallery">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-gallery">
+							<div class="item single-gallery">
+								<img src="img/slider4.jpeg" alt="" height="135" width="70">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/slider5.jpeg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/slider6.jpeg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/taman pintar.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/taman sari.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/keraton jogja.jpeg" alt="" height="135" width="90">
+							</div>																		
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End gallery Area -->
+			<br>
+			<a href="pariwisata.html"> More Info</a>
+			<br>
+			<br>
+
+			<!-- Start feature Area -->
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-40 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Kebudayaan Di Jogja Kota</h1>
+							<p>Temukan Kuliner yang anda inginkan dari sini dan mulailah mencoba.</p>
+						</div>
+					</div>
+				</div>
+			<!-- End feature Area -->
+
+
+			<!-- Start gallery Area -->
+			<section class="gallery-area" id="gallery">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-gallery">
+							<div class="item single-gallery">
+								<img src="img/budaya1.jpeg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/budaya2.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/budaya3.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/sekaten.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/saparan.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/tumplak wajik.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/karawitann.webp" alt="" height="135" width="90">
+							</div>
+							<div class="item single-gallery">
+								<img src="img/wayang kulit.jpeg" alt="" height="135" width="90">
+							</div>																			
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End gallery Area -->
+			<br>
+			<a href="budaya.html"> More Info</a>
+			<br>
+			<br>
+			
+			<!-- Start feature Area -->
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-40 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Beberapa Kuliner Di Jogja Kota</h1>
+							<p>Temukan Kuliner yang anda inginkan dari sini dan mulailah mencoba.</p>
+						</div>
+					</div>
+				</div>
+			<!-- End feature Area -->
+
+
+			<!-- Start gallery Area -->
+			<section class="gallery-area" id="gallery">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-gallery">
+							<div class="item single-gallery">
+								<img src="img/gudeg.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/jadah.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/sate.jpg" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/kipo.jpe" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/bakpia.webp" alt="" height="135" width="90">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/tiwol.webp" alt="" height="135" width="90">
+							</div>																		
+						</div>
+					</div>
+				</div>	
+			</section>
+			<br>
+			<a href="kuliner.html"> More Info</a>
+			<br>
+			<br>
+			<!-- End gallery Area -->
+			
+			
+			
+			<!-- Start faq Area -->
+			<section class="faq-area section-gap" id="faq">
+				<div class="row">
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9732520221605!2d110.36327047500508!3d-7.7926565922273445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5825fa6106c5%3A0x3ea4c521a5ed1133!2sJl.%20Malioboro%2C%20Sosromenduran%2C%20Gedong%20Tengen%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1709033347748!5m2!1sid!2sid" width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
+					
+	
+				</div>
+			</section>
+			<!-- End faq Area -->
+			
+			
+			<!-- Start Video Area -->
+			
+						<!-- <video autoplay muted loop id="video-bg">
+							<source src="img/vidjog.mp4" type="video/mp4" width="1400" height="600" >
+						</video> -->
+						
+						<div class="video-container">
+							<video autoplay muted loop id="video-bg">
+								<source src="img/VID4.mp4" type="video/mp4" />
+							</video>
+						</div>
+						
+					
+			<!-- Start Video Area -->
+			
+			
+			<!-- Start logo Area -->
+			<section class="logo-area">
+				<div class="container">
+					<div class="row">
+						
+					</div>
+				</div>	
+			</section>
+			<!-- End logo Area -->
+			
+							
+			<section class="related-articles" id="artikel"> 
+				<div class="container">
+					<h2>Artikel Terkait</h2>
+					<div class="article-list">
+						<div class="article">
+							<h3>Artikel Pariwisata</h3>
+							<p>Beberapa Artikel Tentang Pariwisata</p>
+							<a href="https://www.wsrentaljogja.com/30-pilihan-wisata-di-jogja-2022/">Baca selengkapnya</a>
+						</div>
+						<div class="article">
+							<h3>Artikel Budaya</h3>
+							<p>Beberapa Artikel Budaya yang ada di Jogja</p>
+							<a href="https://sapabudaya.jogjakota.go.id/blog/7-budaya-jogjakarta-yang-paling-terkenal">Baca selengkapnya</a>
+						</div>
+						<div class="article">
+							<h3>Artikel Kuliner</h3>
+							<p>Beberapa Artikel Tentang Kuliner di jogja</p>
+							<a href="https://www.yogyes.com/id/yogyakarta-culinary/">Baca selengkapnya</a>
+						</div>
+			
+					</div>
+				</div>
+			</section>
+			
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>About Us</h6>
+								<p>
+									Natif is a group of students who created Discover Jogja to make it easier for tourists who want to visit the city of Jogja.
+								</p>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            		<p class="footer-text">DiscoveryJogja &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Mahasiswa of ITSK Sugeng Hartono by <a href="https://sugenghartono.ac.id/" target="_blank">Natif</a></p>
+            		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Kabar terbaru</h6>
+								<p>Tetap Update untuk Hal BAru</p>
+								<div class="" id="mc_embed_signup">
+
+										<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+
+										<div class="d-flex flex-row">
+
+											<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+
+
+				                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+				                            	<div style="position: absolute; left: -5000px;">
+													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+												</div>
+				                          	
+											<!-- <div class="col-lg-4 col-md-4">
+												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+											</div>  -->
+										</div>		
+										<div class="info"></div>
+										</form>
+								</div>
+								</div>
+						</div>						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Follow Us</h6>
+								<p>untuk beberapa konten selanjutnya</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="https://www.instagram.com/itsksugenghartono?igsh=MTQ1dXdmeHdxNHEzOQ%3D%3D"><i class="fa fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/slick.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/waypoints.min.js"></script>		
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
